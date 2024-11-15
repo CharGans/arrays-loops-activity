@@ -6,13 +6,19 @@
  * 3. After the loop, log out the total number of
  *    hobbies
  */
-
+let groupHobbies =[ 'Roller Skate', 'Garden', 'Tap Dancing', 'Gaming'];
+console.log(groupHobbies);
+for (let i=0; i < groupHobbies.length; i++) {
+console.log(groupHobbies[i]);
+}
+console.log('total hobbies', groupHobbies.length);
 
 // Example output
 // 1. swimming
 // 2. board games
 // 3. painting
 // Total hobbies: 3
+
 
 /**
  * #2 Colors
@@ -24,7 +30,8 @@
  *    is in the array
  * 4. Output the array and number of times teal was found
  */
-
+let colorArray = ['teal', 'crimson', 'green', 'gold'];
+//let tealCount = ()
 
 // Example output
 // green, red, teal, orange, teal
@@ -40,6 +47,10 @@
  *    array and even numbers in the evenNumbers array.
  * 4. Output the original array, odd number array and even number array
  */
+let numberArray = [ 2, 4, 6, 7, 8 ,9,10];
+let oddNumbers =[];
+let evenNumbers =[];
+
 
 
 // Example output
